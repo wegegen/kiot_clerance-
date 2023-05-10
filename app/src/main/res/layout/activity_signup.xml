@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="30dp"
+        tools:context=".signup">
+
+        <TextView
+            android:id="@+id/tt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sigup page"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="111dp" />
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:drawableLeft="@drawable/ic_baseline_id_24"
+            android:ems="10"
+            android:hint="id"
+            android:inputType="text"
+            tools:layout_editor_absoluteX="157dp"
+            tools:layout_editor_absoluteY="471dp" />
+
+        <EditText
+            android:id="@+id/username_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:drawableLeft="@drawable/ic_baseline_name_24"
+            android:ems="10"
+            android:hint="name"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="168dp"
+            tools:layout_editor_absoluteY="103dp" />
+
+        <EditText
+            android:id="@+id/emaileditText"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:ems="10"
+            android:hint="...@gmail.com"
+            android:inputType="textEmailAddress"
+            tools:layout_editor_absoluteX="170dp"
+            tools:layout_editor_absoluteY="164dp" />
+
+        <Spinner
+            android:id="@+id/user_type_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:drawableLeft="@drawable/ic_baseline_status_24"
+            android:hint="status"
+            tools:layout_editor_absoluteX="164dp"
+            tools:layout_editor_absoluteY="283dp" />
+
+        <Spinner
+            android:id="@+id/department"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:drawableLeft="@drawable/ic_baseline_departmaent_24"
+            android:hint="dep't"
+            tools:layout_editor_absoluteX="159dp"
+            tools:layout_editor_absoluteY="343dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                app:passwordToggleEnabled="true">
+
+                <EditText
+                    android:id="@+id/password_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="71dp"
+                    android:drawableLeft="@drawable/ic_baseline_password_24"
+                    android:ems="10"
+                    android:hint="password"
+                    android:inputType="textPassword"></EditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="sigup"
+            tools:layout_editor_absoluteX="151dp"
+            tools:layout_editor_absoluteY="563dp" />
+
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:text="Have account? login"
+            tools:layout_editor_absoluteX="152dp"
+            tools:layout_editor_absoluteY="635dp" />
+
+    </LinearLayout>
+</ScrollView>

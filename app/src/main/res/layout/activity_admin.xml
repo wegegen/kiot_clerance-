@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin">
+
+    <Button
+        android:id="@+id/logoutbutton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+
+        android:text="Logout" />
+
+    <Button
+        android:id="@+id/computerreg"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="16dp"
+        android:text="comp.reg" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Admin Page"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="40dp"
+        android:textStyle="italic"
+        android:textSize="25dp"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Request Information"
+        android:textStyle="italic"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:id="@+id/crudeoperation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:text="Update/Delete Your Information ?"
+        android:layout_marginLeft="15dp"
+        android:textStyle="italic"
+        android:textSize="25dp"/>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/logoutbutton">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:id="@+id/tabled"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="170dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"
+
+                >
+                <!-- Your table rows and columns go here -->
+
+
+            </TableLayout>
+
+        </ScrollView>
+
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/staffrequest"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Staff Request ?" />
+
+
+
+</RelativeLayout>
+
+
+

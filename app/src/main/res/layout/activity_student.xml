@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="30dp"
+        tools:context=".student">
+<Button
+    android:id="@+id/logoutbutton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="200dp"
+    android:text="LOGOUT"
+    />
+
+        <Button
+            android:id="@+id/compcheck"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:color="@color/black"
+            android:text="CHECK.COMP"
+            android:layout_marginRight="3dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Welcome Student"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="111dp" />
+        <EditText
+            android:id="@+id/idinfo"
+            android:layout_width="324dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:hint="ID"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <EditText
+            android:id="@+id/blockinfo"
+            android:layout_width="324dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:hint="BLOCK NUNBER"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <EditText
+            android:id="@+id/dormnuninfo"
+            android:layout_width="324dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:hint="DORM NUNBER"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <EditText
+            android:id="@+id/DOR"
+            android:layout_width="324dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:hint="DORM REQUEST"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/libinfo"
+            android:layout_width="324dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:hint="LIBRARY REQUEST"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <EditText
+            android:id="@+id/cofeinfo"
+            android:layout_width="324dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:hint="CAFFE REQUEST"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <EditText
+            android:id="@+id/SECURITIINFO"
+            android:layout_width="324dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:hint="SECURITY REQUEST"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/Request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Request?"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Student information"
+            android:textStyle="italic"
+            android:textSize="25dp"
+            android:gravity="center"/>
+
+            <EditText
+                android:id="@+id/myiddd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="your Id number"
+                android:layout_marginBottom="2dp"
+                android:gravity="center"
+                    android:layout_marginTop="1dp"/>
+            <Button
+                android:id="@+id/searchme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                    android:text="Search Me"/>
+        <EditText
+            android:id="@+id/myinfos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:background="@android:color/white"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:inputType="none"
+             />
+        <TextView
+            android:id="@+id/crudeoperation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Are You Want TO Update/Delete Information ?"
+            android:textStyle="italic"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
+

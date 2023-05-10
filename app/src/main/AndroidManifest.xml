@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.checked">
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/image"
+        android:label="@string/project_id"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Checked"
+        tools:targetApi="31">
+        <activity
+            android:name=".staffreqestinformation"
+            android:exported="false" />
+        <activity
+            android:name=".staffcomputer"
+            android:exported="false" />
+        <activity
+            android:name=".letmecheck"
+            android:exported="false" />
+        <activity
+            android:name=".computerinformation"
+            android:exported="false" />
+        <activity
+            android:name=".admin"
+            android:exported="false" />
+        <activity
+            android:name=".staff"
+            android:exported="false" />
+        <activity
+            android:name=".student"
+            android:exported="false" />
+        <activity
+            android:name=".signup"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

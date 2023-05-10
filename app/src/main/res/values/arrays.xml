@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="usertype">
+        <item>admin</item>
+        <item>staff</item>
+        <item>student</item>
+
+
+    </string-array>
+    <string-array name="deptname">
+        <item>SW</item>
+        <item>IT</item>
+        <item>IS</item>
+        <item>CS</item>
+        <item>MECHANICAL</item>
+        <item>ELECTRICAL</item>
+        <item>CIVIL</item>
+        <item>COTUM</item>
+        <item>OTHERS</item>
+
+    </string-array>
+</resources>

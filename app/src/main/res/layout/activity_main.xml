@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="30dp"
+        tools:context=".MainActivity">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="login pages"
+            android:textSize="40dp" />
+
+        <EditText
+            android:id="@+id/txtemail"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="26dp"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:ems="10"
+            android:hint="...@gmail.com"
+            android:inputType="textEmailAddress" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                app:passwordToggleEnabled="true">
+
+                <EditText
+                    android:id="@+id/passwords_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableLeft="@drawable/ic_baseline_password_24"
+                    android:ems="10"
+                    android:hint="password"
+                    android:inputType="textPassword"></EditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+
+
+
+        <Spinner
+            android:id="@+id/user_type_spinner"
+            android:layout_width="181dp"
+            android:layout_height="46dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="26dp"
+            android:ems="10"
+            android:drawableLeft="@drawable/ic_baseline_status_24"
+            android:hint="status"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            tools:layout_editor_absoluteX="152dp"
+            tools:layout_editor_absoluteY="635dp"
+            android:text="login" />
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            tools:layout_editor_absoluteX="152dp"
+            tools:layout_editor_absoluteY="635dp"
+            android:text="Haven't account? signup"
+            />
+    </LinearLayout>
+</ScrollView>
