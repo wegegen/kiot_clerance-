@@ -1,4 +1,4 @@
-👋 Hi, I’m @wegegen
+👋 Hi, I’m @wegeNE 
 👀 I’m interested in attending the software programing life.
 🌱 I’m currently learning at the Wollo Kombocha Institute of Technology which found in Ethiopia .
 💞️ I’m looking to collaborate on the web and mobile application development in addition to this I am interested in in new programming language.
